@@ -2,8 +2,9 @@
 Objetivos:
 
 0. usar boceto para ajustes y referencia
-1. demarcar segmentos
-2. definir librerias / orden de construccion
-3. ajsutar colores
-4. buscar librerias de elementos espeficos
-5. textos definir textos
+1. buscar templates para la base
+3. demarcar segmentos
+4. definir librerias / orden de construccion
+5. ajsutar colores
+6. buscar librerias de elementos espeficos
+7. textos definir textos
