@@ -377,6 +377,13 @@ header .logo {
 	-o-background-size: cover;
 	background-size: cover;
 }
+#header-wrapper.header-slider2 {
+	background: #444 url(../img/bg/web-jeep.webp) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
 #main-flexslider ul.slides li p {
 	font-size: 72px;
