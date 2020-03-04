@@ -6,5 +6,5 @@ Objetivos:
 3. demarcar segmentos
 4. definir librerias / orden de construccion
 5. ajsutar colores
-6. buscar librerias de elementos espeficos
+6. buscar librerias de elementos espeficos (carrusel por ejemplo)
 7. textos definir textos
