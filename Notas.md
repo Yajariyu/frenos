@@ -2,3 +2,24 @@
 Link de google maps para frenos aqui
 
 https://www.google.com/maps/place/Frenos+Aqui/@10.4969302,-66.9204212,17.25z/data=!4m5!3m4!1s0x8c2a5f7bc06024c7:0xc83201a128bdf5d6!8m2!3d10.4971236!4d-66.9182723?hl=es
+
+Colores de la paleta en el diseño:
+
+#00589D // azul frenos aqui
+
+#F4B100 // semi naranja
+
+#FCD90E // amarillo principal
+
+#F4B100 // amarillo diseño 2
+
+#2E2E2F // negro
+
+#E6312F // rojo
+
+#DB291F // rojo v2
+
+#F28E00 // naranja logo
+
+#F9FAFA // blanco
+
