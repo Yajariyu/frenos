@@ -23,3 +23,10 @@ Colores de la paleta en el diseño:
 
 #F9FAFA // blanco
 
+------------------------------------------------
+
+Si estas usando Vscode:
+
+https://codeforgeek.com/best-visual-studio-code-extensions-web-development/
+
+https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code
