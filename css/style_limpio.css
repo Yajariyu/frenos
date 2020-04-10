@@ -1,0 +1,31 @@
+/*
+    Theme Name: Maxim
+    Theme URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
+
+/*
+===========================
+CONTENTS:
+
+01 General
+02 Typography
+03 Non-semantic
+04 Navbar
+05 Page sections
+06 Footer
+07 Icons
+08 Buttons
+09 Media queries 
+===========================
+*/
+/* Import css */
+
+/* =========================================================
+01. General
+============================================================ */
+.header_buttom {
+	border: 1px;
+	background-color: red;
+}
