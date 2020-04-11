@@ -6,33 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="css/style_limpio.css" rel="stylesheet">
 	<!-- <link href="css/style.css" rel="stylesheet"> -->
 	<!-- <link href="color/default.css" rel="stylesheet"> -->
 	<!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
   </head>
   <body>
+    
+    <div id="root"></div>
+    <div id="navbar_container"></div>
 
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">FrenosAqui</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-          <a title="location" href="#location">Ubicación</a>
-          <a title="about" href="#about">Horarios</a>
-          <a title="works" href="#works">Servicios</a>
-          <a title="happy" href="#happy">Clientes Felices</a>
-          <a title="us" href="#us">Nosotros</a>
-          <a title="blog" href="#blog">Productos</a>
-          <a title="contact" href="#contact">Contacto</a>
-          <a title="carrusel" href="#carrusel">Marcas</a>
-          <a title="mercadolibre" href="#mercadolibre">Mercadolibre</a>
+            <ul>
+              <a title="location" href="#location" class="header_buttom_new">Ubicación</a>
+              <a title="about" href="#about" class="header_buttom_new">Horarios</a>
+              <a title="works" href="#works" class="header_buttom_new">Servicios</a>
+              <a title="happy" href="#happy" class="header_buttom_new">Clientes Felices</a>
+              <a title="us" href="#us" class="header_buttom_new">Nosotros</a>
+              <a title="blog" href="#blog" class="header_buttom_new">Productos</a>
+              <a title="contact" href="#contact" class="header_buttom_new">Contacto</a>
+              <a title="carrusel" href="#carrusel" class="header_buttom_new">Marcas</a>
+              <a title="mercadolibre" href="#mercadolibre" class="header_buttom_new">Mercadolibre</a>
+            </ul>
           </div>
         </div>
         </nav>
-	</div>
+	  </div>
+
 	<!-- spacer section -->
 	<section id="location" class="spacer">
 		<h1 id="location-tittle">Ubicación</h1>
@@ -50,14 +57,16 @@
 				</div> -->
 			</div>
 		</div>
-	</section>
+  </section>
+  
+  <div id="root"></div>
+
+  <div id="like_button_container"></div>
 
     <h1>Hello, world!</h1>
 
     <!-- ... HTML existente ... -->
-
-    <div id="like_button_container"></div>
-
+    <!-- <div id="navbar_container"></div> -->
     <!-- ... HTML existente ... -->
 
 
@@ -71,8 +80,13 @@
       <!-- Nota: cuando se despliegue, reemplazar "development.js" con "production.min.js". -->
       <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
       <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-
+      <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin ></script>
+      <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin ></script>
+      <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin ></script>
+      
       <!-- Cargamos nuestro componente de React. -->
       <script src="like_button.js"></script>
+      <script src="navbar.js"></script>
+
   </body>
 </html>
