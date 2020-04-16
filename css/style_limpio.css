@@ -42,7 +42,7 @@ CONTENTS:
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin-left: 0;
   padding: 0;
   overflow: hidden;
   background-color: #0159A0;
@@ -66,6 +66,13 @@ li a:hover {
 
 
 /* =========================================================
+01. Tabbar top image banner
+============================================================ */
+.top-image {
+  background: #F4B100 url(../img/logo/banner-logo.jpg) no-repeat center center ;
+  height: 160px;
+}
+/* =========================================================
 02. Tabbar
 ============================================================ */
 
@@ -81,8 +88,6 @@ li a:hover {
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-
-
 
 section#about {
 	background:#f2f2f2;
