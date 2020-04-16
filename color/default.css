@@ -71,3 +71,11 @@ i.icon-bgdark:hover {
 i.icon-bgdark.active {
 	background: #e06d5e;
 }
+
+
+/* carousel models */
+
+#carousel-marcas {
+	background-color: #FCD90E ;
+}
+
