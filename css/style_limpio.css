@@ -64,9 +64,12 @@ li a {
 
 li a:hover {
   background-color: #111111;
+} 
+
+a:hover {
+  color: yellowgreen;
+  text-decoration: underline;
 }
-
-
 /* =========================================================
 01. Tabbar top image banner
 ============================================================ */
