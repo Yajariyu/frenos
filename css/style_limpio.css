@@ -97,3 +97,28 @@ a:hover {
 section#about {
 	background:#f2f2f2;
 }
+
+/* =========================================================
+03. Location
+============================================================ */
+
+#location {
+	text-align: center;
+	background: #444 url(../img/bg/mapa-bg.jpg) no-repeat center center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+  }
+#location-tittle {
+	text-align: center;
+	color: "red";
+    font-size: 46px;
+    font-weight: bold;
+  }
+#location-info {
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	color: "red";
+  background-color: #70A0C4;
+  height: 250px;
+  width: 250px;
+  }
