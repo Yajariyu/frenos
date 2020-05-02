@@ -1,0 +1,124 @@
+/*
+    Theme Name: Maxim
+    Theme URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
+
+/*
+===========================
+CONTENTS:
+
+01 General
+02 Typography
+03 Non-semantic
+04 Navbar
+05 Page sections
+06 Footer
+07 Icons
+08 Buttons
+09 Media queries 
+===========================
+*/
+/* Import css */
+
+
+
+/* =========================================================
+01. General
+============================================================ */
+.header_buttom_new {
+    border-width: 1px;
+    padding: 5px;
+    margin-left: 7px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+div .navbar-nav {
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0159A0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+} 
+
+a:hover {
+  color: yellowgreen;
+  text-decoration: underline;
+}
+/* =========================================================
+01. Tabbar top image banner
+============================================================ */
+.top-image {
+  background: #F4B100 url(../img/logo/banner-logo.jpg) no-repeat center center ;
+  height: 160px;
+}
+/* =========================================================
+02. Tabbar
+============================================================ */
+
+.tabbar_custom {
+  background-color: #0159A0;
+}
+
+.bg-light {
+  background-color: #0159A0;
+}
+
+ /* debo hacer el stroke del la linea externa blanco */
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+section#about {
+	background:#f2f2f2;
+}
+
+/* =========================================================
+03. Location
+============================================================ */
+
+#location {
+	text-align: center;
+	background: #444 url(../img/bg/mapa-bg.jpg) no-repeat center center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+  }
+#location-tittle {
+	text-align: center;
+	color: "red";
+    font-size: 46px;
+    font-weight: bold;
+  }
+#location-info {
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	color: "red";
+  background-color: #70A0C4;
+  height: 250px;
+  width: 250px;
+  }
