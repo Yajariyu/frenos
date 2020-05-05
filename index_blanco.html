@@ -6,21 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<<<<<<< HEAD
 
+    <link href="css/all.min.css" rel="stylesheet" type="text/css">
+    
+    <!-- Creo de momento que podemos vivir sin este style, creo que estorba mas de lo que ayuda -->
+    <!-- es casi todos los estilos que venian en el template, los cuales ya ni estoy usando de referencia -->
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
 
-  <link href="css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="color/default.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-
-
-
-=======
+    <link href="color/default.css" rel="stylesheet">
     <link href="css/style_limpio.css" rel="stylesheet">
-	<!-- <link href="css/style.css" rel="stylesheet"> -->
-	<!-- <link href="color/default.css" rel="stylesheet"> -->
-	<!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
->>>>>>> 7ca31c6b6ac0ef1774bfcad007487f28694ad46c
+
+    <link rel="shortcut icon" href="img/favicon.ico">
   </head>
   <body>
     
@@ -28,46 +24,8 @@
     <div id="navbar_container"></div>
     <!-- (aqui debe ir el banner que se oculta al hacer el scroll) -->
 
-<<<<<<< HEAD
-    <div>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Expand at sm</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarsExample03">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                  <div class="dropdown-menu" aria-labelledby="dropdown03">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-              </ul>
-              <form class="form-inline my-2 my-md-0">
-                <input class="form-control" type="text" placeholder="Search">
-              </form>
-            </div>
-          </nav>
-	</div>
-=======
     <section class="spacer top-image">
     </section>
-    
-
-
     <div class="tabbar_custom">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"></a>
@@ -78,11 +36,11 @@
           <div class="navbar-nav">
             <ul>
               <a title="location" href="#location" class="header_buttom_new">Ubicación</a>
-              <a title="about" href="#about" class="header_buttom_new">Horarios</a>
-              <a title="works" href="#works" class="header_buttom_new">Servicios</a>
+              <a title="schedule" href="#schedule" class="header_buttom_new">Horarios</a>
+              <a title="services" href="#services" class="header_buttom_new">Servicios</a>
               <a title="happy" href="#happy" class="header_buttom_new">Clientes Felices</a>
               <a title="us" href="#us" class="header_buttom_new">Nosotros</a>
-              <a title="blog" href="#blog" class="header_buttom_new">Productos</a>
+              <a title="products" href="#products" class="header_buttom_new">Productos</a>
               <a title="contact" href="#contact" class="header_buttom_new">Contacto</a>
               <a title="carrusel" href="#carrusel" class="header_buttom_new">Marcas</a>
               <a title="mercadolibre" href="#mercadolibre" class="header_buttom_new">Mercadolibre</a>
@@ -92,7 +50,6 @@
         </nav>
 	  </div>
 
->>>>>>> 7ca31c6b6ac0ef1774bfcad007487f28694ad46c
 	<!-- spacer section -->
 	<section id="location" class="spacer">
 		<h1 id="location-tittle">Ubicación</h1>
@@ -111,18 +68,21 @@
 			</div>
 		</div>
   </section>
-  <section id="about" class="section">
+  <section id="schedule" class="section">
 		<div class="container">
 			<h4>Horarios
 			</h4>
 		
 		</div>
 	</section>
-  <section id="works" class="section">
+  <section id="services" class="section">
 		<div class="container">
 			<h4>Servicios
 			</h4>
-		
+		  <div class="title-yellow container text-center mt-4 ">
+        METODOS DE ENTREGA
+      </div>
+
 		</div>
 	</section>
   <section id="happy" class="section">
@@ -131,15 +91,30 @@
 			</h4>
 		
 		</div>
-	</section>
+  </section>
+  
+
   <section id="us" class="section">
 		<div class="container">
-			<h4>Nosotros
-			</h4>
-		
+      <h4>SOBRE NOSOTROS</h4>
+      <div class="row">
+        <div class="col">
+          <img class=" col-10 d-block align-self-center" src="img/logo/logo-frenosAqui.jpg" alt="">
+        </div>
+        <div class="col">
+          <div class="mt-5 mb-5">Quienes Somos?</div>
+          <div class="mt-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam dignissimos cumque, tempora iste fugit placeat quasi beatae
+              dicta nam numquam exercitationem, aspernatur, est tempore officiis
+              commodi neque expedita iusto doloribus.
+            </div>
+        </div>
+      </div>
 		</div>
-	</section>
-  <section id="blog" class="section">
+  </section>
+  
+  <section id="products" class="section">
 		<div class="container">
 			<h4>Productos
 			</h4>
