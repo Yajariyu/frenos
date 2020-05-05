@@ -32,3 +32,7 @@ Si estas usando Vscode:
 https://codeforgeek.com/best-visual-studio-code-extensions-web-development/
 
 https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-studio-code
+
+Guias para simplificar Grids para la contruccion de los layouts
+
+https://getbootstrap.com/docs/4.0/layout/grid/
