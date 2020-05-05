@@ -13,6 +13,8 @@ Colores de la paleta en el diseño:
 
 #F4B100 // amarillo diseño 2
 
+#FDD504 // amarillo fuerte diseño
+
 #2E2E2F // negro
 
 #E6312F // rojo
