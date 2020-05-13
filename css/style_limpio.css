@@ -2,18 +2,18 @@
 01. General
 ============================================================ */
 .header_buttom_new {
-    border-width: 1px;
-    padding: 5px;
-    margin-left: 7px;
-    color: white;
-    font-size: 17px;
-    font-weight: bold;
+  border-width: 1px;
+  padding: 5px;
+  margin-left: 7px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 div .navbar-nav {
-    flex-direction: column;
-    margin-left: 50px;
-    margin-top: 10px;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 ul {
@@ -38,19 +38,21 @@ li a {
 
 li a:hover {
   background-color: #111111;
-} 
+}
 
 a:hover {
   color: yellowgreen;
   text-decoration: underline;
 }
+
 /* =========================================================
 01. Tabbar top image banner
 ============================================================ */
 .top-image {
-  background: #F4B100 url(../img/logo/banner-logo.jpg) no-repeat center center ;
+  background: #F4B100 url(../img/logo/banner-logo.jpg) no-repeat center center;
   height: 160px;
 }
+
 /* =========================================================
 02. Tabbar
 ============================================================ */
@@ -63,13 +65,13 @@ a:hover {
   background-color: #0159A0;
 }
 
- /* debo hacer el stroke del la linea externa blanco */
+/* debo hacer el stroke del la linea externa blanco */
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 section#about {
-	background:#f2f2f2;
+  background: #f2f2f2;
 }
 
 /* =========================================================
@@ -77,123 +79,157 @@ section#about {
 ============================================================ */
 
 #location {
-	text-align: center;
-	background: #444 url(../img/bg/mapa-bg.jpg) no-repeat center center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-  }
+  text-align: center;
+  background: #444 url(../img/bg/mapa-bg.jpg) no-repeat center center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 #location-tittle {
-	text-align: center;
-	color: "red";
-    font-size: 46px;
-    font-weight: bold;
-  }
+  text-align: center;
+  color: "red";
+  font-size: 46px;
+  font-weight: bold;
+}
+
 #location-info {
-	padding: 20px 20px 20px 20px;
-	text-align: center;
-	color: "red";
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  color: "red";
   background-color: #70A0C4;
   height: 250px;
   width: 250px;
-  }
+}
 
-  /* =========================================================
+/* =========================================================
   04. schedule
   ============================================================ */
-  #horarios {
-    background-color: #FCD90E ;
-    height: 500px;
-  }
+#horarios {
+  background-color: #FCD90E;
+  height: 500px;
+}
 
 
-  /* =========================================================
+/* =========================================================
   05. services
   ============================================================ */
-  #metodos-entrega {
-    background-color:white ;
-  height: 400px;
-  }
+#metodos-entrega {
+  background-color: white;
+}
 
+
+#servicios-entrega {
+  margin-bottom: 40px;
+}
+
+
+@media (max-width: 768px) {
+  .envios {
+    height: 70px;
+  }
+}
+
+@media (min-width: 768px) {
   .envios {
     height: 100px;
   }
+}
 
-  /* =========================================================
+/* =========================================================
   06. happy
   ============================================================ */
-  #clientes-felices{
-    background-color:white ;
-    height: 400px;
-  }
+#clientes-felices {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-  /* =========================================================
+#comentarios-felices {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+
+/* =========================================================
   07. us
   ============================================================ */
-  #sobrenosotros {
-    background-color: #FCD90E;
-    height: 500px;
-  }
+#sobrenosotros {
+  background-color: #FCD90E;
+  height: 500px;
+}
 
-  #us {
-    background-color: #FDD504;  /* este amarillo es el real del logo pequeño */
-    /* height: 500px; */
-  }
+#us {
+  background-color: #FDD504;
+  /* este amarillo es el real del logo pequeño */
+  /* height: 500px; */
+}
 
-  /* =========================================================
+/* =========================================================
   08. products
   ============================================================ */
- 
-  #productos{
-    background-color: white;
-    height: 600px;
-  }
-  
-  /* =========================================================
+
+#productos {
+  background-color: white;
+  height: 600px;
+}
+
+/* =========================================================
   09. contact
   ============================================================ */
-  
-  #formulario{
-    background-color: black;
-    height: 500px;
-  }
-  
-  /* =========================================================
+
+#formulario {
+  background-color: black;
+  height: 500px;
+}
+
+/* =========================================================
   10. carrusel
   ============================================================ */
- 
+
+@media (max-width: 768px) {
   #carousel-marcas {
-    height:100px;
-  }
-  #carousel-marcas img{
-    margin-top: 25px;
+    height: 80px;
   }
 
-  /* =========================================================
+  .imgmarca {
+    height: 20px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  #carousel-marcas {
+    height: 100px;
+  }
+
+  #carousel-marcas img {
+    margin-top: 25px;
+  }
+}
+
+/* =========================================================
   11. mercadolibre
   ============================================================ */
 
 
 
 
-  /* =========================================================
+/* =========================================================
   11. Footer
   ============================================================ */
-  footer
-  {
-    background-color: black;
-      height: 60px;	
-  }
-  
-  .social {
-    height: 20px;
-  }
-  
-  .clientes {
-    border: 1px solid blue;
-  }
-  
-  .fa-star {
-    color:#FCD90E ;
-  }
-  
-  
+footer {
+  background-color: black;
+  height: 60px;
+}
+
+.social {
+  height: 20px;
+}
+
+.clientes {
+  border: 1px solid blue;
+}
+
+.fa-star {
+  color: #FCD90E;
+}
