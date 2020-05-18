@@ -45,6 +45,37 @@ a:hover {
   text-decoration: underline;
 }
 
+.title {
+	color:white;
+	font-weight: 800;
+	font-size: x-large;
+
+}
+
+.text-description {
+	font-weight: 600;
+	font-size: medium;
+}
+
+.title-blue {
+	color:blue;
+	font-weight: 800;
+	font-size: x-large;
+}
+
+
+.title-yellow {
+	color:#FCD90E;
+	font-weight: 800;
+	font-size: x-large;
+}
+
+.title-black {
+	colo: black;
+	font-weight: 900;
+	font-size: x-large;
+}
+
 /* =========================================================
 01. Tabbar top image banner
 ============================================================ */
@@ -145,7 +176,7 @@ section#about {
 }
 
 #comentarios-felices {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   margin-top: 40px;
 }
 
@@ -162,6 +193,10 @@ section#about {
   background-color: #FDD504;
   /* este amarillo es el real del logo pequeño */
   /* height: 500px; */
+}
+
+.text-us {
+  font-size:20px;
 }
 
 /* =========================================================
@@ -222,8 +257,14 @@ footer {
   height: 60px;
 }
 
+footer ul {
+    background-color: black;
+}
+
+
 .social {
-  height: 20px;
+  font-size: 2em;
+  color:white;
 }
 
 .clientes {
