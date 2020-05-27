@@ -46,34 +46,34 @@ a:hover {
 }
 
 .title {
-	color:white;
-	font-weight: 800;
-	font-size: x-large;
+  color: white;
+  font-weight: 800;
+  font-size: x-large;
 
 }
 
 .text-description {
-	font-weight: 600;
-	font-size: medium;
+  font-weight: 600;
+  font-size: medium;
 }
 
 .title-blue {
-	color:blue;
-	font-weight: 800;
-	font-size: x-large;
+  color: blue;
+  font-weight: 800;
+  font-size: x-large;
 }
 
 
 .title-yellow {
-	color:#FCD90E;
-	font-weight: 800;
-	font-size: x-large;
+  color: #FCD90E;
+  font-weight: 800;
+  font-size: x-large;
 }
 
 .title-black {
-	colo: black;
-	font-weight: 900;
-	font-size: x-large;
+  colo: black;
+  font-weight: 900;
+  font-size: x-large;
 }
 
 /* =========================================================
@@ -132,11 +132,13 @@ section#about {
   width: 350px;
   flex-direction: row;
 }
+
 .iconito-ubicacion {
   height: px;
   width: px;
   border-color: red;
 }
+
 #texto-direccion {
   font-size: 16;
   font-weight: bold;
@@ -148,8 +150,10 @@ section#about {
   ============================================================ */
 #horarios {
   background-color: #FCD90E;
-  height: 500px;
+
 }
+
+.icon-home {}
 
 
 /* =========================================================
@@ -207,7 +211,7 @@ section#about {
 }
 
 .text-us {
-  font-size:20px;
+  font-size: 20px;
 }
 
 /* =========================================================
@@ -227,9 +231,11 @@ section#about {
   background-color: black;
   height: 500px;
 }
+
 #contact {
   background-color: whitesmoke;
 }
+
 #contact-tittle {
   text-align: center;
   color: "red";
@@ -278,13 +284,13 @@ footer {
 }
 
 footer ul {
-    background-color: black;
+  background-color: black;
 }
 
 
 .social {
   font-size: 2em;
-  color:white;
+  color: white;
 }
 
 .clientes {
