@@ -227,6 +227,15 @@ section#about {
   background-color: black;
   height: 500px;
 }
+#contact {
+  background-color: whitesmoke;
+}
+#contact-tittle {
+  text-align: center;
+  color: "red";
+  font-size: 46px;
+  font-weight: bold;
+}
 
 /* =========================================================
   10. carrusel
