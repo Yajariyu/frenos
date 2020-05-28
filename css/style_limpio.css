@@ -188,7 +188,7 @@ section#about {
   05. services
   ============================================================ */
 #metodos-entrega {
-  background-color: white;
+  background-color: #fcfaf7;
 }
 
 
@@ -197,16 +197,44 @@ section#about {
 }
 
 
+
 @media (max-width: 768px) {
   .envios {
-    height: 70px;
+    height: 40px;
   }
+
+  #titulo-servicios {
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+  }
+
+
+
+  .title-black {
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
 }
 
 @media (min-width: 768px) {
   .envios {
-    height: 100px;
+    height: 80px;
   }
+
+  #titulo-servicios {
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+  }
+
+
+  .title-black {
+    color: black;
+    font-weight: 900;
+    font-size: x-large;
+  }
+
 }
 
 /* =========================================================
@@ -229,7 +257,7 @@ section#about {
   ============================================================ */
 #sobrenosotros {
   background-color: #FCD90E;
-  height: 500px;
+
 }
 
 #us {
