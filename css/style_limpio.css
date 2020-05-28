@@ -71,7 +71,7 @@ a:hover {
 }
 
 .title-black {
-  colo: black;
+  color: black;
   font-weight: 900;
   font-size: x-large;
 }
@@ -153,8 +153,36 @@ section#about {
 
 }
 
-.icon-home {}
 
+@media (max-width: 768px) {
+  #small-icon-home {
+    display: block;
+  }
+
+  #big-icon-home {
+    display: none
+  }
+
+  #mercado-libre-img {
+    height: 75px;
+    width: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  #small-icon-home {
+    display: none;
+  }
+
+  #big-icon-home {
+    display: block;
+  }
+
+  #mercado-libre-img {
+    height: 100px;
+  }
+}
 
 /* =========================================================
   05. services
@@ -299,4 +327,43 @@ footer ul {
 
 .fa-star {
   color: #FCD90E;
+}
+
+@media (max-width: 768px) {
+  #face-small {
+    display: block;
+  }
+
+  #inst-small {
+    display: block;
+  }
+
+  #face-big {
+    display: none
+  }
+
+  #inst-big {
+    display: none
+  }
+
+
+}
+
+@media (min-width: 768px) {
+
+  #face-small {
+    display: none;
+  }
+
+  #inst-small {
+    display: none;
+  }
+
+  #face-big {
+    display: block
+  }
+
+  #inst-big {
+    display: block
+  }
 }
