@@ -299,6 +299,11 @@ section#about {
   font-weight: bold;
 }
 
+#not-form {
+  background-color: "yellow";
+  background: #444 url(../img/bg/mapa-bg.jpg) repeat center center;
+}
+
 /* =========================================================
   10. carrusel
   ============================================================ */
