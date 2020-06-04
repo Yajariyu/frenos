@@ -36,3 +36,12 @@ https://scotch.io/tutorials/debugging-javascript-in-google-chrome-and-visual-stu
 Guias para simplificar Grids para la contruccion de los layouts
 
 https://getbootstrap.com/docs/4.0/layout/grid/
+
+
+--------------------------------------------------------
+
+debemos organizar los tama;os de texto
+
+pienso que entre 17-20 para texto normal esta bien
+
+y para los titulos me parece que grandes sin estar todo en mayuscula se ve mejor, pero seria cuestion de probar
