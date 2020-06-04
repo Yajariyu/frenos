@@ -298,7 +298,15 @@ section#about {
 #not-form {
   background-color: "yellow";
   background: #444 url(../img/bg/mapa-bg.jpg) repeat center center;
+  flex: 1;
 }
+
+#clickable-map2{
+  border-width: 3px;
+  flex: 1;
+  background: #444 url(../img/bg/mapa-bg.jpg) repeat center center;
+}
+
 
 /* =========================================================
   10. carrusel
