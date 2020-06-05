@@ -76,6 +76,8 @@ a:hover {
   font-size: x-large;
 }
 
+
+
 /* =========================================================
 01. Tabbar top image banner
 ============================================================ */
@@ -128,7 +130,7 @@ section#about {
   text-align: justify;
   color: "red";
   background-color: #70A0C4;
-  opacity: .8; 
+  opacity: .8;
   height: 250px;
   width: 350px;
   flex-direction: row;
@@ -138,7 +140,7 @@ section#about {
   font-size: 20;
   font-weight: bold;
   margin-left: "30px";
-  opacity: 1; 
+  opacity: 1;
 }
 
 #clickable-map {
@@ -149,7 +151,7 @@ section#about {
 }
 
 #clickable-map:hover {
-  color:black;
+  color: black;
 }
 
 /* =========================================================
@@ -185,9 +187,8 @@ section#about {
     display: block;
   }
 
-  #mercado-libre-img {
-    height: 100px;
-  }
+
+
 }
 
 /* =========================================================
@@ -311,7 +312,7 @@ section#about {
   flex: 1;
 }
 
-#clickable-map2{
+#clickable-map2 {
   border-width: 3px;
   flex: 1;
   background: #444 url(../img/bg/mapa-bg.jpg) repeat center center;
