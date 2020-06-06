@@ -64,6 +64,9 @@ y para los titulos me parece que grandes sin estar todo en mayuscula se ve mejor
 maybe slideshow
 https://www.w3schools.com/howto/howto_js_slideshow.asp
 
+maybe sticky
+https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+
 
 recorte: divs
 
