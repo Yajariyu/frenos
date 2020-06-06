@@ -385,18 +385,19 @@ section#about {
 #not-form {
   background-color: #0159A0;
   flex: 1;
-  background: #444 url(../img/bg/mapa-bg.jpg) repeat center center;
+  /* background: #444 url(../img/bg/mapa-bg.jpg) repeat center center; */
+  
 }
 
-#not-form1 {
-  background-color: red;
-  flex: 1;
-}
-#not-form2 {
+#primero {
   background-color: green;
   flex: 1;
 }
-#not-form3 {
+#segundo {
+  background-color: purple;
+  flex: 1;
+}
+#tercero {
   background-color: yellow;
   flex: 1;
 }

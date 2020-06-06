@@ -59,3 +59,32 @@ debemos organizar los tama;os de texto
 pienso que entre 17-20 para texto normal esta bien
 
 y para los titulos me parece que grandes sin estar todo en mayuscula se ve mejor, pero seria cuestion de probar
+
+
+maybe slideshow
+https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+
+recorte: divs
+
+        <!-- <a href="https://www.google.com/maps/place/Frenos+Aqui/@10.4969302,-66.9204212,17.25z/data=!4m5!3m4!1s0x8c2a5f7bc06024c7:0xc83201a128bdf5d6!8m2!3d10.4971236!4d-66.9182723?hl=es"
+        target="_blank" id="clickable-map2"> -->
+          <div class="col" id="not-form">
+
+
+              <div class="row "id="primer">
+                <div id="telefonazo">
+                  <img class="mx-auto d-block envios" src="img/icon-phone.png" alt="">
+                  <h1 class="title-black text-center mt-4">ATENCION TELEFONICA</h1>
+                  <h1 class="title-black text-center mt-4">+58 (0212) 482-8016</h1>
+                </div>
+              </div>
+              <div class="row " id="segundo">
+                dime
+              </div>
+              <div class="row " id="tercero">
+                dime
+              </div>
+            </div>
+
+        <!-- </a> -->
