@@ -383,8 +383,21 @@ section#about {
 }
 
 #not-form {
-  background-color: "yellow";
+  background-color: #0159A0;
+  flex: 1;
   background: #444 url(../img/bg/mapa-bg.jpg) repeat center center;
+}
+
+#not-form1 {
+  background-color: red;
+  flex: 1;
+}
+#not-form2 {
+  background-color: green;
+  flex: 1;
+}
+#not-form3 {
+  background-color: yellow;
   flex: 1;
 }
 
@@ -392,6 +405,7 @@ section#about {
   border-width: 3px;
   flex: 1;
   background: #444 url(../img/bg/mapa-bg.jpg) repeat center center;
+  opacity: 0.5;
 }
 
 
