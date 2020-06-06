@@ -416,7 +416,8 @@ section#about {
   }
 
   #carousel-marcas img {
-    margin-top: 25px;
+    /* creo que este margen no hacia falta, creo que descuadraba los iconos del carrusel hacia abajo */
+    /* margin-top: 25px; */
   }
 }
 
