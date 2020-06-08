@@ -12,7 +12,6 @@
 
 div .navbar-nav {
   flex-direction: column;
-  margin-left: 50px;
   margin-top: 10px;
 }
 
@@ -116,6 +115,10 @@ a:hover {
 
 section#about {
   background: #f2f2f2;
+}
+
+#navbarNavAltMarkup{
+  justify-content: center;
 }
 
 /* =========================================================
@@ -380,8 +383,22 @@ section#about {
 }
 
 #not-form {
-  background-color: "yellow";
-  background: #444 url(../img/bg/mapa-bg.jpg) repeat center center;
+  background-color: #0159A0;
+  flex: 1;
+  /* background: #444 url(../img/bg/mapa-bg.jpg) repeat center center; */
+  
+}
+
+#primero {
+  background-color: green;
+  flex: 1;
+}
+#segundo {
+  background-color: purple;
+  flex: 1;
+}
+#tercero {
+  background-color: yellow;
   flex: 1;
 }
 
@@ -389,6 +406,7 @@ section#about {
   border-width: 3px;
   flex: 1;
   background: #444 url(../img/bg/mapa-bg.jpg) repeat center center;
+  opacity: 0.5;
 }
 
 
@@ -413,7 +431,8 @@ section#about {
   }
 
   #carousel-marcas img {
-    margin-top: 25px;
+    /* creo que este margen no hacia falta, creo que descuadraba los iconos del carrusel hacia abajo */
+    /* margin-top: 25px; */
   }
 }
 
