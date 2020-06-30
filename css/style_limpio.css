@@ -405,7 +405,7 @@ section#about {
 #clickable-map2 {
   border-width: 3px;
   flex: 1;
-  background: #444 url(../img/bg/mapa-bg.jpg) repeat center center;
+  background: #444 url(../img/bg/mapa-bg.png) repeat center center;
   opacity: 0.5;
 }
 
