@@ -76,6 +76,8 @@ a:hover {
 }
 
 #myBtn {
+  height:120px;
+  width: 120px;
   display: none;
   position: fixed;
   bottom: 20px;
@@ -84,12 +86,17 @@ a:hover {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: red;
-  color: white;
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
 }
+@media (max-width: 768px) {
+  #myBtn {
+    height:90px;
+    width: 90px;
+  }
+}
+
 
 /* =========================================================
 01. Tabbar top image banner
@@ -142,13 +149,20 @@ section#about {
 #banner {
   margin-top: 216px;
   text-align: center;
-  background: #444 url(../img/bg/banner.jfif) no-repeat center center;
+  background:url(../img/bg/banner_carro.png) no-repeat center center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: black;
-  opacity: 0.7;
-  height: 400px;
+  height: 500px;
+  background-size: 100% 100%;
 }
+
+@media (max-width: 768px) {
+  #banner {
+    height: 350px;
+  }
+}
+
+
 
 #banner-tittle {
   color: aliceblue;
