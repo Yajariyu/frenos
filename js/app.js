@@ -18,3 +18,18 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+$(function() {
+
+  $(window).scroll(function() {
+    var x = $(window).scrollTop();
+
+    if (x >= 60) {
+      $("#header-logo").hide();
+    } else {
+      $("#header-logo").show();
+    }
+
+  });
+
+});
