@@ -20,7 +20,7 @@ ul {
   margin-left: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #0159A0;
+  /* background-color: #0159A0; */
 }
 
 li {
@@ -57,7 +57,7 @@ a:hover {
 }
 
 .title-blue {
-  color: blue;
+  color: #0159A0;
   font-weight: 800;
   font-size: x-large;
 }
@@ -362,6 +362,7 @@ section#about {
 
 .text-us {
   font-size: 20px;
+  color: black;
 }
 
 /* =========================================================
@@ -370,6 +371,7 @@ section#about {
 
 #productos {
   background-color: white;
+ 
 
 }
 
