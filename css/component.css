@@ -123,7 +123,9 @@
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 22px;
-	color: #999;
+	text-align: justify;
+	text-justify: inter-word;
+	color: #333;
 }
 
 .og-details a {
